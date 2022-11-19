@@ -1,0 +1,235 @@
+CRITICAL - 2022-11-05 06:07:57 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-05 02:21:33 --> Invalid file: libros/listars.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(10): view('libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:14:48 --> Undefined variable $laquequiera
+in APPPATH\Views\libros\listar.php on line 12.
+ 1 APPPATH\Views\libros\listar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $laquequiera', 'APPPATH\\Views\\libros\\listar.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(13): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:14:49 --> Undefined variable $laquequiera
+in APPPATH\Views\libros\listar.php on line 12.
+ 1 APPPATH\Views\libros\listar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $laquequiera', 'APPPATH\\Views\\libros\\listar.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(13): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:37:55 --> Invalid file: tamplate/piepagina.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tamplate/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('tamplate/piepagina', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('tamplate/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:37:56 --> Invalid file: tamplate/piepagina.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tamplate/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('tamplate/piepagina', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('tamplate/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:39:18 --> Invalid file: tamplate/piepagina.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tamplate/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('tamplate/piepagina', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('tamplate/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:39:37 --> Invalid file: tamplate/piepagina.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tamplate/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('tamplate/piepagina', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('tamplate/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 11:06:01 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getVarr()
+in APPPATH\Controllers\Libros.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 11:10:31 --> Invalid file: libros/listar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(16): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 11:33:33 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::gerRandomName()
+in APPPATH\Controllers\Libros.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 11:33:47 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gerVar()
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 11:36:04 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(39): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', '1667666164_4c2a346d0862dc3ff780')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 12:22:18 --> Call to a member function where() on bool
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 12:39:52 --> unlink(../public/uploads/imagenNode.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/imagenNode.jpg): No such file or directory', 'APPPATH\\Controllers\\Libros.php', 58)
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/imagenNode.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:33:29 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Libros.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Libros.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Libros')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Libros')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Libros', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:39:11 --> Undefined variable $cabecera
+in APPPATH\Views\libros\editar.php on line 1.
+ 1 APPPATH\Views\libros\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 5 APPPATH\Controllers\Libros.php(70): view('libros/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:39:34 --> Undefined variable $cabecera
+in APPPATH\Views\libros\editar.php on line 1.
+ 1 APPPATH\Views\libros\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 5 APPPATH\Controllers\Libros.php(70): view('libros/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:40:00 --> Undefined variable $cabecera
+in APPPATH\Views\libros\editar.php on line 1.
+ 1 APPPATH\Views\libros\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 5 APPPATH\Controllers\Libros.php(70): view('libros/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:53:25 --> Array to string conversion
+in APPPATH\Views\libros\editar.php on line 5.
+ 1 APPPATH\Views\libros\editar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\libros\\editar.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 5 APPPATH\Controllers\Libros.php(70): view('libros/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 15:59:16 --> Call to a member function get() on array
+in APPPATH\Views\libros\editar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 4 APPPATH\Controllers\Libros.php(70): view('libros/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 16:00:10 --> Call to a member function get() on array
+in APPPATH\Views\libros\editar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/editar', [], true)
+ 4 APPPATH\Controllers\Libros.php(70): view('libros/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->editar('5')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 16:51:15 --> Undefined variable $cabecera
+in APPPATH\Views\libros\listar.php on line 1.
+ 1 APPPATH\Views\libros\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\listar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(84): view('libros/listar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 16:51:51 --> Undefined variable $cabecera
+in APPPATH\Views\libros\listar.php on line 1.
+ 1 APPPATH\Views\libros\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\listar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(84): view('libros/listar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 16:52:58 --> Undefined variable $libros
+in APPPATH\Views\libros\listar.php on line 17.
+ 1 APPPATH\Views\libros\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\libros\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(87): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 17:56:28 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', '1667688988_47a873a0b551bef9b130')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
